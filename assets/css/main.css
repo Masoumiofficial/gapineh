@@ -836,6 +836,7 @@ hr {
 
 .hero__badge {
   display: inline-flex;
+  flex-wrap: wrap;
   align-items: center;
   gap: 0.55rem;
   padding: 0.32rem 0.8rem 0.32rem 0.55rem;
@@ -1026,6 +1027,7 @@ hr {
 
 .bubble {
   max-inline-size: 88%;
+  overflow-wrap: anywhere;
   padding: 0.55rem 0.75rem;
   border-radius: 16px;
   line-height: 1.8;
@@ -1058,6 +1060,7 @@ hr {
 
 .source-chip {
   display: inline-flex;
+  flex-wrap: wrap;
   align-items: center;
   gap: 0.35rem;
   align-self: flex-start;
@@ -1255,6 +1258,7 @@ hr {
 
 .app-mock__url {
   margin-inline: auto;
+  min-inline-size: 0;
   padding: 0.05rem 0.6rem;
   border-radius: 999px;
   background: rgb(255 255 255 / 8%);
@@ -1352,6 +1356,7 @@ hr {
 
 .app-mock__head {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   gap: 0.5rem;
   padding-block-end: 0.6rem;
@@ -1365,6 +1370,7 @@ hr {
 .app-mock__tools {
   margin-inline-start: auto;
   display: flex;
+  flex-wrap: wrap;
   gap: 0.3rem;
 }
 

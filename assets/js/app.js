@@ -332,6 +332,7 @@
   setPending('[data-config="delivery"]', cfg.delivery);
   setPending('[data-config="support"]', cfg.support);
   setPending('[data-config="updates"]', cfg.updates);
+  setPending('[data-config="payment"]', cfg.payment);
   setPending('[data-config="refund"]', cfg.refund);
   setPending('[data-config="price"]', cfg.price);
 
