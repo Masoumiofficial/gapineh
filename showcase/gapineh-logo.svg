@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="64" height="64" viewBox="0 0 64 64"
+     fill="none" role="img" aria-labelledby="gapineh-logo-title">
+  <title id="gapineh-logo-title">لوگوی گپینه</title>
+
+  <defs>
+    <linearGradient id="gapineh-brand-gradient"
+                    x1="8" y1="6" x2="56" y2="60"
+                    gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#25C6DE"/>
+      <stop offset="0.48" stop-color="#4B7ADE"/>
+      <stop offset="1" stop-color="#5535CF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Brand tile; the area outside the rounded corners stays transparent. -->
+  <rect x="2" y="2" width="60" height="60" rx="18"
+        fill="url(#gapineh-brand-gradient)"/>
+  <rect x="2.5" y="2.5" width="59" height="59" rx="17.5"
+        stroke="#FFFFFF" stroke-opacity="0.24"/>
+
+  <!-- Two overlapping conversations: smart assistance and human support. -->
+  <path d="M14 20C14 14.477 18.477 10 24 10H42C47.523 10 52 14.477 52 20V29C52 34.523 47.523 39 42 39H34L24 47V39H24C18.477 39 14 34.523 14 29V20Z"
+        fill="#B9A9FF"/>
+  <path d="M22 32C22 27.029 26.029 23 31 23H46C50.971 23 55 27.029 55 32V39C55 43.971 50.971 48 46 48H43V55L35 48H31C26.029 48 22 43.971 22 39V32Z"
+        fill="#F4F3FA"/>
+
+  <circle cx="34" cy="35" r="2.5" fill="#5535CF"/>
+  <circle cx="43" cy="35" r="2.5" fill="#5535CF"/>
+</svg>
